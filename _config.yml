@@ -5,7 +5,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 
 url: ""
 # Only necessary when hosting your site in a sub-directory. Project sites hosted on GitHub Pages are the common use-case of this variable.
-baseurl: https://pouroverconcepts.github.io/
+baseurl: ""
 paginate_path: "blog/page:num/"
 permalink: blog/:title/
 
