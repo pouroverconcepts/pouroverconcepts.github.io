@@ -1,0 +1,19 @@
+current directory: /Users/mattbrisbin/Documents/projects/pouroverconcepts.github.io/long-haul/_vendor/ruby/3.3.0/gems/eventmachine-1.2.7/ext/fastfilereader
+/Users/mattbrisbin/.rubies/ruby-3.3.5/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /Users/mattbrisbin/Documents/projects/pouroverconcepts.github.io/long-haul/_vendor/ruby/3.3.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make DESTDIR\= sitearchdir\=./.gem.20241121-76755-jfoi06 sitelibdir\=./.gem.20241121-76755-jfoi06 clean
+
+current directory: /Users/mattbrisbin/Documents/projects/pouroverconcepts.github.io/long-haul/_vendor/ruby/3.3.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make DESTDIR\= sitearchdir\=./.gem.20241121-76755-jfoi06 sitelibdir\=./.gem.20241121-76755-jfoi06
+compiling mapper.cpp
+compiling rubymain.cpp
+linking shared-object fastfilereaderext.bundle
+
+current directory: /Users/mattbrisbin/Documents/projects/pouroverconcepts.github.io/long-haul/_vendor/ruby/3.3.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make DESTDIR\= sitearchdir\=./.gem.20241121-76755-jfoi06 sitelibdir\=./.gem.20241121-76755-jfoi06 install
+/usr/bin/install -c -m 0755 fastfilereaderext.bundle ./.gem.20241121-76755-jfoi06
+
+current directory: /Users/mattbrisbin/Documents/projects/pouroverconcepts.github.io/long-haul/_vendor/ruby/3.3.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make DESTDIR\= sitearchdir\=./.gem.20241121-76755-jfoi06 sitelibdir\=./.gem.20241121-76755-jfoi06 clean

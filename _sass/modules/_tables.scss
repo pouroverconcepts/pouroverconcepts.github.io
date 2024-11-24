@@ -1,0 +1,56 @@
+/***************
+TABLE STYLES
+***************/
+
+table {
+	width: 100%;
+	margin-bottom: 1.5em;
+	border-collapse: collapse;
+
+	caption {
+		margin: 0 0 7px;
+		font-size: 0.75em;
+		color: $grey;
+		text-transform: uppercase;
+		letter-spacing: 1px;
+	}
+}
+
+tr {
+
+	&:nth-child(even) {
+		background-color: lighten($grey, 30%);
+
+		@media (prefers-color-scheme: dark) {
+			background-color: lighten(black, 10%);
+		}
+	}
+}
+
+td,
+th {
+	text-align: left;
+	padding: .5em;
+}
+
+th {
+	background-color: $primary-color;
+	color: white;
+
+	&:last-child {
+		border-right: 0;
+	}
+}
+
+card {
+	background: #fff;
+	border: 1px solid #ddd;
+	border-radius: 8px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+	overflow: hidden;
+	width: calc(33.333% - 20px); /* Adjust for a 3-column layout */
+	min-width: 280px;
+	text-decoration: none;
+	color: inherit;
+	transition: transform 0.2s, box-shadow 0.2s;
+  }
